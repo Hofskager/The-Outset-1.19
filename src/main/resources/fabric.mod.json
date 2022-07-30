@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "outset",
+  "version": "${version}",
+
+  "name": "The Outset",
+  "description": "This mod adds The Outset dimension & content related to the nature's four forces (wind, water, heat & geology). Re-live your minecraft adventure like you've never before!",
+  "authors": [
+    "Hofskager"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/..."
+  },
+
+  "license": "MIT License",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hofskager.outset.Outset"
+    ],
+    "client": [
+      "net.hofskager.outset.OutsetClient"
+    ]
+  },
+  "mixins": [
+    "outset.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
