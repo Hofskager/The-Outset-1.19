@@ -1,6 +1,8 @@
 package net.hofskager.outset;
 
 import net.fabricmc.api.ModInitializer;
+import net.hofskager.outset.block.ModBlocks;
+import net.hofskager.outset.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +15,7 @@ public class Outset implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
