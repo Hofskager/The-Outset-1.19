@@ -1,12 +1,39 @@
 {
+  "block.outset.brass_block": "Block of Brass",
+  "block.outset.bronze_block": "Block of Bronze",
+  "block.outset.cassiterite": "Cassiterite",
+  "block.outset.grizzletite_block": "Block of Grizzletite",
+  "block.outset.silver_ore": "Silver Ore",
+  "block.outset.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.outset.silver_block": "Block of Silver",
-  "item.outset.raw_silver": "Raw Silver",
+  "block.outset.raw_silver_block": "Block of Raw Silver",
 
+  "item.outset.armadillo_shell": "Armadillo Shell",
+  "item.outset.esca": "Esca",
+  "item.outset.gill_plate": "Gill Plate",
+  "item.outset.plankton_bottle": "Plankton Bottle",
+  "item.outset.plumicorn": "Plumicorn",
+  "item.outset.salamander_tail": "Salamander Tail",
+
+  "item.outset.manta_ray_banner_pattern": "Banner Pattern",
+  "item.outset.manta_ray_banner_pattern.desc": "Ray",
+  "item.outset.owl_banner_pattern": "Banner Pattern",
+  "item.outset.owl_banner_pattern.desc": "Owlet",
+
+  "item.outset.primal_fig": "Primal Fig",
+
+  "item.outset.brass_ingot": "Brass Ingot",
+  "item.outset.bronze_ingot": "Bronze Ingot",
+  "item.outset.grizzletite_ingot": "Grizzletite Ingot",
+  "item.outset.raw_silver": "Raw Silver",
+  "item.outset.silver_ingot": "Silver Ingot",
+  "item.outset.silver_nugget": "Silver Nugget",
+  "item.outset.tin_scrap": "Tin Scrap",
+  "item.outset.zinc_scrap": "Zinc Scrap",
 
   "item.outset.anglerfish_spawn_egg": "Anglerfish Spawn Egg",
   "item.outset.armadillo_spawn_egg": "Armadillo Spawn Egg",
   "item.outset.manta_ray_spawn_egg": "Manta Ray Spawn Egg",
-  "item.outset.outset_dragon_spawn_egg": "Outset Dragon Spawn Egg",
   "item.outset.owl_spawn_egg": "Owl Spawn Egg",
   "item.outset.salamander_spawn_egg": "Salamander Spawn Egg"
 }

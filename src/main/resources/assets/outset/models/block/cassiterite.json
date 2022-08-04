@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "outset:block/cassiterite_top",
+    "side": "outset:block/cassiterite_side"
+  }
+}

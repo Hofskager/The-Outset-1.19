@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "outset:block/silver_block" }
+    "": {
+      "model": "outset:block/silver_block"
+    }
   }
 }
