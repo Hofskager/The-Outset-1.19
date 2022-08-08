@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "outset:outset_stone"
+  },
+  "result": "outset:smooth_outset_stone"
+}

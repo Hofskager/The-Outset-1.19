@@ -2,6 +2,7 @@ package net.hofskager.outset.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hofskager.outset.Outset;
+import net.hofskager.outset.item.custom.PrimalFruitItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -25,7 +26,7 @@ public class ModItems {
     public static final Item GILL_PLATE = registerItem("gill_plate",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
     public static final Item PLANKTON_BOTTLE = registerItem("plankton_bottle",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
+            new Item(new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE).group(ItemGroup.MATERIALS).maxCount(16))); // **:
     public static final Item PLUMICORN = registerItem("plumicorn",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
     public static final Item SALAMANDER_TAIL = registerItem("salamander_tail",
@@ -36,25 +37,19 @@ public class ModItems {
     public static final Item OWL_BANNER_PATTERN = registerItem("owl_banner_pattern", new BannerPatternItem(BannerPatternTags.CREEPER_PATTERN_ITEM, new FabricItemSettings().maxCount(1).group(ItemGroup.MISC))); // **:tag
 
     //food
-    public static final Item PRIMAL_FIG = registerItem("primal_fig", new Item(new FabricItemSettings().group(ItemGroup.FOOD).rarity(Rarity.RARE).food(new FoodComponent.Builder().hunger(5).saturationModifier(1.2F).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 2400, 2), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 2), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 2400, 2), 1.0F).alwaysEdible().build())));
+    public static final Item PRIMAL_FIG = registerItem("primal_fig", new PrimalFruitItem(new FabricItemSettings().group(ItemGroup.FOOD).rarity(Rarity.RARE).food(new FoodComponent.Builder().hunger(5).saturationModifier(1.2F).statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 2400, 2), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 2), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 2400, 2), 1.0F).alwaysEdible().build()))); // **:
 
     //metals & alloys
-    public static final Item BRASS_INGOT = registerItem("brass_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
-    public static final Item BRONZE_INGOT = registerItem("bronze_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
-    public static final Item GRIZZLETITE_INGOT = registerItem("grizzletite_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
-    public static final Item RAW_SILVER = registerItem("raw_silver",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
-    public static final Item SILVER_INGOT = registerItem("silver_ingot",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
-    public static final Item SILVER_NUGGET = registerItem("silver_nugget",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
+    public static final Item BRASS_INGOT = registerItem("brass_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item BRONZE_INGOT = registerItem("bronze_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item GRIZZLETITE_INGOT = registerItem("grizzletite_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item SILVER_NUGGET = registerItem("silver_nugget", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item TIN_SCRAP = registerItem("tin_scrap",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:filter_recipe
     public static final Item ZINC_SCRAP = registerItem("zinc_scrap",
-            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS))); // **:filter_recipe
 
     //spawn eggs
     public static final Item ANGLERFISH_SPAWN_EGG = registerItem("anglerfish_spawn_egg",

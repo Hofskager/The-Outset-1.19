@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "outset:esca"
+    }
+  ],
+  "result": {
+    "item": "outset:manta_ray_banner_pattern"
+  }
+}

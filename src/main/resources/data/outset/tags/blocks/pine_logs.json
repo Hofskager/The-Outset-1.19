@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "outset:pine_log",
+    "outset:pine_wood",
+    "outset:stripped_pine_log",
+    "outset:stripped_pine_wood"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "outset:brass_block",
+    "outset:bronze_block",
+    "outset:cassiterite",
+    "outset:grizzletite_block",
+    "outset:silver_ore",
+    "outset:deepslate_silver_ore",
+    "outset:silver_block",
+    "outset:raw_silver_block",
+    "outset:outset_stone",
+    "outset:smooth_outset_stone",
+    "outset:outset_stone_pillar",
+    "outset:outset_stone_bricks",
+    "outset:outset_stone_tiles",
+    "outset:chiseled_outset_stone"
+  ]
+}

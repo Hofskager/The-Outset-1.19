@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "brass_ingot",
+  "ingredients": [
+    {
+      "item": "outset:zinc_scrap"
+    },
+    {
+      "item": "outset:zinc_scrap"
+    },
+    {
+      "item": "outset:zinc_scrap"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "outset:brass_ingot"
+  }
+}

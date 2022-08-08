@@ -1,4 +1,13 @@
 {
+  "block.outset.filter": "Filter",
+  "block.outset.reflective_glass": "Reflective Glass",
+
+  "block.outset.bioluminescent_block": "Bioluminescent Block",
+  "block.outset.blue_bioluminescent_block": "Blue Bioluminescent Block",
+  "block.outset.green_bioluminescent_block": "Green Bioluminescent Block",
+  "block.outset.purple_bioluminescent_block": "Purple Bioluminescent Block",
+  "block.outset.red_bioluminescent_block": "Red Bioluminescent Block",
+
   "block.outset.brass_block": "Block of Brass",
   "block.outset.bronze_block": "Block of Bronze",
   "block.outset.cassiterite": "Cassiterite",
@@ -7,6 +16,26 @@
   "block.outset.deepslate_silver_ore": "Deepslate Silver Ore",
   "block.outset.silver_block": "Block of Silver",
   "block.outset.raw_silver_block": "Block of Raw Silver",
+
+  "block.outset.outset_portal": "Outset Portal",
+  "block.outset.outset_portal_frame": "Outset Portal Frame",
+
+  "block.outset.outset_stone": "Outset Stone",
+  "block.outset.smooth_outset_stone": "Smooth Outset Stone",
+  "block.outset.outset_stone_pillar": "Outset Stone Pillar",
+  "block.outset.outset_stone_bricks": "Outset Stone Bricks",
+  "block.outset.outset_stone_tiles": "Outset Stone Tiles",
+  "block.outset.chiseled_outset_stone": " Chiseled Outset Stone",
+
+  "block.outset.pine_leaves": "Pine Leaves",
+  "block.outset.pine_log": "Pine Log",
+  "block.outset.pine_planks": "Pine Planks",
+  "block.outset.pine_wood": "Pine Wood",
+  "block.outset.stripped_pine_log": "Stripped Pine Log",
+  "block.outset.stripped_pine_wood": "Stripped Pine Wood",
+
+  "block.outset.pine_sapling": "Pine Sapling",
+
 
   "item.outset.armadillo_shell": "Armadillo Shell",
   "item.outset.esca": "Esca",

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "grizzletite_ingot",
+  "ingredients": [
+    {
+      "item": "outset:zinc_scrap"
+    },
+    {
+      "item": "outset:tin_scrap"
+    },
+    {
+      "item": "outset:tin_scrap"
+    },
+    {
+      "item": "outset:tin_scrap"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "outset:grizzletite_ingot"
+  }
+}

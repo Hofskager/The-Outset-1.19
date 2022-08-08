@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "outset:block/chiseled_outset_stone"
+  }
+}

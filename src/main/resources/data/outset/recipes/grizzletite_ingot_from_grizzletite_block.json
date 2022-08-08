@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "grizzletite_ingot",
+  "ingredients": [
+    {
+      "item": "outset:grizzletite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "outset:grizzletite_ingot"
+  }
+}
